@@ -1,0 +1,12 @@
+root = true
+
+[*]
+indent_style = space
+end_of_line = lf
+charset = utf-8
+
+[*.java]
+indent_size = 2
+
+[*.gradle]
+indent_size = 2
