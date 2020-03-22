@@ -4,7 +4,7 @@ plugins {
   id "signing"
 }
 
-group "io.github.jamsesso"
+group "io.github.shanexu"
 version "1.0.8-SNAPSHOT"
 
 sourceCompatibility = 1.8
@@ -33,9 +33,9 @@ artifacts {
   archives jar, javadocJar, sourcesJar
 }
 
-signing {
-  sign configurations.archives
-}
+//signing {
+//  sign configurations.archives
+//}
 
 uploadArchives {
   repositories {
